@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E45D3A72BA2F1F600C3F53C /* DualCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45D3A62BA2F1F600C3F53C /* DualCameraApp.swift */; };
+		9E45D3A92BA2F1F600C3F53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45D3A82BA2F1F600C3F53C /* ContentView.swift */; };
+		9E45D3AB2BA2F1F600C3F53C /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45D3AA2BA2F1F600C3F53C /* CameraManager.swift */; };
+		9E45D3AD2BA2F1F600C3F53C /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45D3AC2BA2F1F600C3F53C /* CameraPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E45D3A32BA2F1F600C3F53C /* DualCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E45D3A62BA2F1F600C3F53C /* DualCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualCameraApp.swift; sourceTree = "<group>"; };
+		9E45D3A82BA2F1F600C3F53C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E45D3AA2BA2F1F600C3F53C /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		9E45D3AC2BA2F1F600C3F53C /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		9E45D3B02BA2F1F600C3F53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E45D3B22BA2F1F600C3F53C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E45D3B42BA2F1F600C3F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9E45D39A2BA2F1F600C3F53C = {
+			isa = PBXGroup;
+			children = (
+				9E45D3A52BA2F1F600C3F53C /* DualCamera */,
+				9E45D3A42BA2F1F600C3F53C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E45D3A42BA2F1F600C3F53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E45D3A32BA2F1F600C3F53C /* DualCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E45D3A52BA2F1F600C3F53C /* DualCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9E45D3A62BA2F1F600C3F53C /* DualCameraApp.swift */,
+				9E45D3A82BA2F1F600C3F53C /* ContentView.swift */,
+				9E45D3AA2BA2F1F600C3F53C /* CameraManager.swift */,
+				9E45D3AC2BA2F1F600C3F53C /* CameraPreviewView.swift */,
+				9E45D3B02BA2F1F600C3F53C /* Assets.xcassets */,
+				9E45D3B42BA2F1F600C3F53C /* Info.plist */,
+				9E45D3B12BA2F1F600C3F53C /* Preview Content */,
+			);
+			path = DualCamera;
+			sourceTree = "<group>";
+		};
+		9E45D3B12BA2F1F600C3F53C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E45D3B22BA2F1F600C3F53C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E45D3A22BA2F1F600C3F53C /* DualCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E45D3B72BA2F1F600C3F53C /* Build configuration list for PBXNativeTarget "DualCamera" */;
+			buildPhases = (
+				9E45D39F2BA2F1F600C3F53C /* Sources */,
+				9E45D3A02BA2F1F600C3F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DualCamera;
+			productName = DualCamera;
+			productReference = 9E45D3A32BA2F1F600C3F53C /* DualCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E45D39B2BA2F1F600C3F53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9E45D3A22BA2F1F600C3F53C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9E45D39E2BA2F1F600C3F53C /* Build configuration list for PBXProject "DualCamera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E45D39A2BA2F1F600C3F53C;
+			productRefGroup = 9E45D3A42BA2F1F600C3F53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E45D3A22BA2F1F600C3F53C /* DualCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E45D3A02BA2F1F600C3F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E45D39F2BA2F1F600C3F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E45D3A72BA2F1F600C3F53C /* DualCameraApp.swift in Sources */,
+				9E45D3A92BA2F1F600C3F53C /* ContentView.swift in Sources */,
+				9E45D3AB2BA2F1F600C3F53C /* CameraManager.swift in Sources */,
+				9E45D3AD2BA2F1F600C3F53C /* CameraPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E45D3B52BA2F1F600C3F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DualCamera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DualCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dualcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E45D3B62BA2F1F600C3F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DualCamera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DualCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dualcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E45D3B82BA2F1F600C3F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DualCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dualcamera;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9E45D3B92BA2F1F600C3F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DualCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.dualcamera;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E45D39E2BA2F1F600C3F53C /* Build configuration list for PBXProject "DualCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E45D3B82BA2F1F600C3F53C /* Debug */,
+				9E45D3B92BA2F1F600C3F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E45D3B72BA2F1F600C3F53C /* Build configuration list for PBXNativeTarget "DualCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E45D3B52BA2F1F600C3F53C /* Debug */,
+				9E45D3B62BA2F1F600C3F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E45D39B2BA2F1F600C3F53C /* Project object */;
+}
